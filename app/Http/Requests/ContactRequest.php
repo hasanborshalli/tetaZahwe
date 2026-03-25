@@ -14,12 +14,11 @@ class ContactRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'name'       => ['required', 'string', 'max:100'],
-            'phone'      => ['required', 'string', 'max:30'],
-            'email'      => ['nullable', 'email', 'max:150'],
-            'event_type' => ['nullable', 'string', 'max:100'],
-            'event_date' => ['nullable', 'date'],
-            'message'    => ['required', 'string', 'min:10', 'max:2000'],
+            'name'    => ['required', 'string', 'max:100'],
+            'phone'   => ['required', 'string', 'max:30'],
+            'email'   => ['nullable', 'email', 'max:150'],
+            'subject' => ['nullable', 'string', 'max:150'],
+            'message' => ['required', 'string', 'min:5', 'max:2000'],
         ];
     }
 
@@ -29,7 +28,6 @@ class ContactRequest extends FormRequest
             'name.required'    => 'Please enter your name.',
             'phone.required'   => 'Please enter your phone number.',
             'message.required' => 'Please write your message.',
-            'message.min'      => 'Message must be at least 10 characters.',
         ];
     }
 }

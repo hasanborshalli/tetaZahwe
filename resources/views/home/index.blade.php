@@ -97,7 +97,7 @@ ABOUT
             <div class="value-row">Salad, dessert & full service with every meal</div>
             <div class="value-row">On-time delivery, every time</div>
         </div>
-        <a href="{{ route('contact') }}" class="btn-primary" data-reveal data-delay="400">Get in Touch</a>
+        <a href="{{ route('reservation') }}" class="btn-primary" data-reveal data-delay="400">Get in Touch</a>
     </div>
 
     <div class="about-right">
@@ -204,7 +204,7 @@ GALLERY
     </div>
 
     <div style="text-align:center; margin-top:48px;" data-reveal>
-        <a href="{{ route('contact') }}" class="btn-primary">Book Your Event</a>
+        <a href="{{ route('reservation') }}" class="btn-primary">Book Your Event</a>
     </div>
 </section>
 
@@ -226,7 +226,7 @@ SERVICES
             <div class="service-title">Weddings &<br>Celebrations</div>
             <p class="service-desc">Full catering for weddings, engagements, and milestone celebrations. We handle
                 everything from setup to full table service.</p>
-            <a href="{{ route('contact') }}" class="service-link">Enquire Now →</a>
+            <a href="{{ route('reservation') }}" class="service-link">Enquire Now →</a>
         </div>
         <div class="service-card" data-stagger-item>
             <div class="service-icon">🏢</div>
@@ -234,7 +234,7 @@ SERVICES
             <div class="service-title">Corporate<br>Daily Meals</div>
             <p class="service-desc">Weekly subscriptions for offices and companies. Fresh, rotating Lebanese lunch
                 delivered daily — on time, every time.</p>
-            <a href="{{ route('contact') }}" class="service-link">Get a Quote →</a>
+            <a href="{{ route('reservation') }}" class="service-link">Get a Quote →</a>
         </div>
         <div class="service-card" data-stagger-item>
             <div class="service-icon">🏠</div>
@@ -242,7 +242,7 @@ SERVICES
             <div class="service-title">Private &<br>Family Events</div>
             <p class="service-desc">From intimate family gatherings to large private parties — homemade food served with
                 full Lebanese hospitality.</p>
-            <a href="{{ route('contact') }}" class="service-link">Book Now →</a>
+            <a href="{{ route('reservation') }}" class="service-link">Book Now →</a>
         </div>
     </div>
 </section>

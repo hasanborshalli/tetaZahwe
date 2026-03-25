@@ -10,14 +10,12 @@ class ContactMessage extends Model
         'name',
         'phone',
         'email',
-        'event_type',
-        'event_date',
+        'subject',
         'message',
         'is_read',
     ];
 
     protected $casts = [
-        'event_date' => 'date',
-        'is_read'    => 'boolean',
+        'is_read' => 'boolean',
     ];
 }

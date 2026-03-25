@@ -16,12 +16,11 @@ class ContactController extends Controller
 
     public function send(ContactRequest $request)
     {
-        // 1. Save to database
+        // Save to database
         $message = ContactMessage::create($request->validated());
 
-        // 2. Send email notification to business owner
-        // Mail::to(config('mail.contact_to'))
-        //     ->send(new ContactFormMail($message));
+        // Send email notification (uncomment when mail is configured)
+        // Mail::to(config('mail.contact_to'))->send(new ContactFormMail($message));
 
         return redirect()
             ->route('contact')

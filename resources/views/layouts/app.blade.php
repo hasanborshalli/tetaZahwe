@@ -24,14 +24,16 @@
             </a>
 
             <ul class="nav-links">
-                <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home')    ? 'active' : '' }}">Home</a>
-                </li>
+                <li><a href="{{ route('home') }}"
+                        class="{{ request()->routeIs('home')        ? 'active' : '' }}">Home</a></li>
                 <li><a href="{{ route('menu.index') }}"
-                        class="{{ request()->routeIs('menu.*')  ? 'active' : '' }}">Weekly Menu</a></li>
+                        class="{{ request()->routeIs('menu.*')       ? 'active' : '' }}">Weekly Menu</a></li>
                 <li><a href="{{ route('home') }}#about" class="">About</a></li>
                 <li><a href="{{ route('home') }}#services" class="">Services</a></li>
+                <li><a href="{{ route('reservation') }}"
+                        class="{{ request()->routeIs('reservation') ? 'active' : '' }}">Reserve</a></li>
                 <li><a href="{{ route('contact') }}"
-                        class="{{ request()->routeIs('contact') ? 'active' : '' }}">Contact</a></li>
+                        class="{{ request()->routeIs('contact')     ? 'active' : '' }}">Contact</a></li>
             </ul>
 
             <div class="nav-right">
@@ -56,6 +58,7 @@
             <a href="{{ route('menu.index') }}">Weekly Menu</a>
             <a href="{{ route('home') }}#about">About</a>
             <a href="{{ route('home') }}#services">Services</a>
+            <a href="{{ route('reservation') }}">Reserve an Event</a>
             <a href="{{ route('contact') }}">Contact</a>
             <a href="https://wa.me/9613486616" target="_blank" class="mobile-wa">📱 Order via WhatsApp</a>
         </div>
