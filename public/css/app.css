@@ -295,9 +295,10 @@ h2.display.light {
 }
 .nav-logo-img {
     height: 52px;
-    width: auto;
+    width: 56px;
     display: block;
     object-fit: contain;
+    background-color: #ecabad;
 }
 .nav-logo-ar {
     font-size: 12px;
@@ -2236,10 +2237,11 @@ h2.display.light {
     justify-content: center;
 }
 .hero-logo-img {
-    width: 260px;
-    height: 260px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: #ecabad;
     display: block;
     border: 3px solid rgba(236, 171, 173, 0.3);
     box-shadow: 0 0 60px rgba(236, 171, 173, 0.2);
@@ -2298,7 +2300,8 @@ h2.display.light {
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: #ecabad;
     border: 2px solid rgba(236, 171, 173, 0.3);
     box-shadow: 0 0 40px rgba(236, 171, 173, 0.15);
 }
