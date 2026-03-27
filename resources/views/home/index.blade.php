@@ -30,10 +30,9 @@ HERO
 
     <div class="hero-content">
         <div class="hero-eyebrow" data-reveal>Lebanese Home Cooking</div>
-        <h1 class="hero-title" data-reveal data-delay="100">
-            طبخات
-            <em>التيتا.</em>
-        </h1>
+        <div class="hero-logo-wrap" data-reveal data-delay="100">
+            <img src="{{ asset('images/teta-zahwe-logo.jpg') }}" alt="Teta Zahwe Catering" class="hero-logo-img" />
+        </div>
         <p class="hero-desc" data-reveal data-delay="200">
             Homemade Lebanese meals for weddings, corporate events,
             and daily catering — crafted fresh every single day

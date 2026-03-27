@@ -19,8 +19,7 @@
         <div class="navbar-inner">
 
             <a href="{{ route('home') }}" class="nav-logo">
-                <span class="nav-logo-en">Teta Zahwe</span>
-                <span class="nav-logo-ar">تيتا زهوة · Catering</span>
+                <img src="{{ asset('images/teta-zahwe-logo.jpg') }}" alt="Teta Zahwe" class="nav-logo-img" />
             </a>
 
             <ul class="nav-links">

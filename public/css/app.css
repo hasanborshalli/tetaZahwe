@@ -2,14 +2,14 @@
    TETA ZAHWE CATERING — Main Stylesheet (Clean)
    ================================================================ */
 
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&display=swap");
 
 /* ── Variables ────────────────────────────────────────────────── */
 :root {
-    --pink: #c9728a;
-    --pink-dark: #a85570;
-    --pink-light: #f2d9df;
-    --pink-pale: #fbf5f6;
+    --pink: #ecabad;
+    --pink-dark: #c98a8b;
+    --pink-light: #faeaea;
+    --pink-pale: #fef8f8;
     --dark: #1c1412;
     --dark-2: #2a1e1e;
     --mid: #6b6060;
@@ -18,7 +18,7 @@
     --white: #ffffff;
     --cream: #fdf8f8;
     --green-wa: #25d366;
-    --font-display: "Playfair Display", Georgia, serif;
+    --font-display: "Cormorant Garamond", "Playfair Display", Georgia, serif;
     --font-body: "DM Sans", system-ui, sans-serif;
     --transition: 0.3s ease;
     --radius: 4px;
@@ -447,7 +447,7 @@ h2.display.light {
     background: var(--dark);
     display: flex;
     align-items: flex-end;
-    padding: 80px 80px 100px;
+    padding: 95px 80px 100px;
     position: relative;
     overflow: hidden;
 }
@@ -459,7 +459,7 @@ h2.display.light {
     font-size: 340px;
     font-weight: 900;
     font-style: italic;
-    color: rgba(201, 114, 138, 0.05);
+    color: rgba(236, 171, 173, 0.05);
     line-height: 1;
     pointer-events: none;
     user-select: none;
@@ -472,7 +472,7 @@ h2.display.light {
     border-radius: 50%;
     background: radial-gradient(
         circle,
-        rgba(201, 114, 138, 0.14) 0%,
+        rgba(236, 171, 173, 0.14) 0%,
         transparent 70%
     );
     top: -150px;
@@ -486,7 +486,7 @@ h2.display.light {
     border-radius: 50%;
     background: radial-gradient(
         circle,
-        rgba(201, 114, 138, 0.07) 0%,
+        rgba(236, 171, 173, 0.07) 0%,
         transparent 70%
     );
     bottom: 60px;
@@ -507,7 +507,7 @@ h2.display.light {
     height: 440px;
     border-radius: 160px 160px 0 0;
     background: linear-gradient(160deg, #2a1018 0%, #4a2030 50%, #3d1828 100%);
-    border: 1px solid rgba(201, 114, 138, 0.2);
+    border: 1px solid rgba(236, 171, 173, 0.2);
     overflow: hidden;
     flex-shrink: 0;
 }
@@ -521,7 +521,7 @@ h2.display.light {
     height: 170px;
     border-radius: 12px;
     background: linear-gradient(135deg, #2a1520 0%, #3d2030 100%);
-    border: 1px solid rgba(201, 114, 138, 0.15);
+    border: 1px solid rgba(236, 171, 173, 0.15);
     overflow: hidden;
 }
 .hero-img-tall img,
@@ -729,7 +729,7 @@ h2.display.light {
     inset: 0;
     background: radial-gradient(
         ellipse at center,
-        rgba(201, 114, 138, 0.15) 0%,
+        rgba(236, 171, 173, 0.15) 0%,
         transparent 70%
     );
     pointer-events: none;
@@ -740,7 +740,7 @@ h2.display.light {
     font-size: 180px;
     font-weight: 900;
     font-style: italic;
-    color: rgba(201, 114, 138, 0.06);
+    color: rgba(236, 171, 173, 0.06);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -771,7 +771,7 @@ h2.display.light {
 .about-divider {
     width: 50px;
     height: 1px;
-    background: rgba(201, 114, 138, 0.3);
+    background: rgba(236, 171, 173, 0.3);
     margin: 28px auto;
 }
 .stats-row {
@@ -907,7 +907,7 @@ h2.display.light {
     pointer-events: none;
 }
 .day-card.is-today .day-num {
-    color: rgba(201, 114, 138, 0.12);
+    color: rgba(236, 171, 173, 0.12);
 }
 
 /* Today badge — HIDDEN by default, shown on is-today in WHITE */
@@ -918,7 +918,7 @@ h2.display.light {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--pink);
-    background: rgba(201, 114, 138, 0.15);
+    background: rgba(236, 171, 173, 0.15);
     padding: 3px 8px;
     border-radius: 20px;
     margin-top: 4px;
@@ -1014,7 +1014,7 @@ h2.display.light {
     border-radius: 50%;
     background: radial-gradient(
         circle,
-        rgba(201, 114, 138, 0.08) 0%,
+        rgba(236, 171, 173, 0.08) 0%,
         transparent 70%
     );
     right: -100px;
@@ -1050,8 +1050,8 @@ h2.display.light {
     width: 38px;
     height: 38px;
     border-radius: 50%;
-    background: rgba(201, 114, 138, 0.1);
-    border: 1px solid rgba(201, 114, 138, 0.25);
+    background: rgba(236, 171, 173, 0.1);
+    border: 1px solid rgba(236, 171, 173, 0.25);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1329,7 +1329,7 @@ h2.display.light {
     font-family: var(--font-display);
     font-size: 500px;
     font-weight: 900;
-    color: rgba(201, 114, 138, 0.03);
+    color: rgba(236, 171, 173, 0.03);
     line-height: 1;
     pointer-events: none;
 }
@@ -1361,7 +1361,7 @@ h2.display.light {
     font-family: var(--font-display);
     font-size: 72px;
     font-weight: 900;
-    color: rgba(201, 114, 138, 0.25);
+    color: rgba(236, 171, 173, 0.25);
     line-height: 0.7;
     margin-bottom: 18px;
 }
@@ -1384,8 +1384,8 @@ h2.display.light {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: rgba(201, 114, 138, 0.12);
-    border: 1px solid rgba(201, 114, 138, 0.2);
+    background: rgba(236, 171, 173, 0.12);
+    border: 1px solid rgba(236, 171, 173, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1435,7 +1435,7 @@ h2.display.light {
     font-size: 280px;
     font-weight: 900;
     font-style: italic;
-    color: rgba(201, 114, 138, 0.05);
+    color: rgba(236, 171, 173, 0.05);
     pointer-events: none;
     white-space: nowrap;
     line-height: 1;
@@ -1550,7 +1550,7 @@ h2.display.light {
 .contact-form-wrap .form-input:focus,
 .contact-form-wrap .form-textarea:focus,
 .contact-form-wrap .form-select:focus {
-    border-color: rgba(201, 114, 138, 0.5);
+    border-color: rgba(236, 171, 173, 0.5);
 }
 .contact-form-wrap .form-input::placeholder,
 .contact-form-wrap .form-textarea::placeholder {
@@ -1744,7 +1744,7 @@ h2.display.light {
     font-size: 300px;
     font-weight: 900;
     font-style: italic;
-    color: rgba(201, 114, 138, 0.05);
+    color: rgba(236, 171, 173, 0.05);
     pointer-events: none;
     white-space: nowrap;
 }
@@ -2215,5 +2215,563 @@ h2.display.light {
     }
     .reservation-section .form-row {
         flex-direction: column;
+    }
+}
+
+/* ================================================================
+   LOGO — navbar & hero
+   ================================================================ */
+.nav-logo-img {
+    height: 56px;
+    width: auto;
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Hero logo — centrepiece replacing the title */
+.hero-logo-wrap {
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: center;
+}
+.hero-logo-img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    border: 3px solid rgba(236, 171, 173, 0.3);
+    box-shadow: 0 0 60px rgba(236, 171, 173, 0.2);
+}
+@media (max-width: 768px) {
+    .hero-logo-img {
+        width: 200px;
+        height: 200px;
+    }
+    .nav-logo-img {
+        height: 44px;
+    }
+}
+
+/* ================================================================
+   MENU PAGE — Hero (shared)
+   ================================================================ */
+.menu-page-hero {
+    padding-top: 80px;
+    background: var(--dark);
+    position: relative;
+    overflow: hidden;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+}
+.menu-page-hero-bg {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+    font-family: var(--font-display);
+    font-size: 340px;
+    font-weight: 700;
+    font-style: italic;
+    color: rgba(236, 171, 173, 0.05);
+    pointer-events: none;
+    white-space: nowrap;
+    line-height: 1;
+}
+.menu-page-hero-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 48px 80px;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+.menu-page-logo-wrap {
+    flex-shrink: 0;
+}
+.menu-page-logo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(236, 171, 173, 0.3);
+    box-shadow: 0 0 40px rgba(236, 171, 173, 0.15);
+}
+.menu-page-title {
+    font-family: var(--font-display);
+    font-size: 56px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.05;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+}
+.menu-page-title em {
+    font-style: italic;
+    color: var(--pink);
+}
+.menu-page-badge {
+    display: inline-block;
+    background: rgba(236, 171, 173, 0.12);
+    border: 1px solid rgba(236, 171, 173, 0.25);
+    color: var(--pink);
+    padding: 8px 18px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+/* ================================================================
+   MENU PAGE — Week Switcher
+   ================================================================ */
+.menu-week-switcher {
+    background: var(--cream);
+    border-bottom: 1px solid var(--line);
+    padding: 14px 80px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.menu-switcher-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--light);
+    white-space: nowrap;
+}
+.menu-switcher-pills {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.menu-switcher-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 30px;
+    border: 1px solid var(--line);
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--mid);
+    text-decoration: none;
+    background: var(--white);
+    transition: all 0.2s;
+}
+.menu-switcher-pill:hover {
+    border-color: var(--pink);
+    color: var(--pink);
+}
+.menu-switcher-pill.active {
+    background: var(--pink);
+    border-color: var(--pink);
+    color: #fff;
+    font-weight: 600;
+}
+.menu-switcher-live {
+    background: rgba(255, 255, 255, 0.25);
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 1px 6px;
+    border-radius: 10px;
+}
+
+/* ================================================================
+   MENU PAGE — Tabs Design
+   ================================================================ */
+.menu-tabs-section {
+    background: var(--white);
+}
+
+/* Tab navigation bar */
+.menu-tabs-nav {
+    display: flex;
+    overflow-x: auto;
+    background: var(--white);
+    border-bottom: 2px solid var(--line);
+    padding: 0 80px;
+    gap: 0;
+    scrollbar-width: none;
+}
+.menu-tabs-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-tab-btn {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.2s;
+    position: relative;
+    gap: 3px;
+}
+.menu-tab-btn:hover {
+    background: var(--pink-pale);
+}
+.menu-tab-btn.active {
+    border-bottom-color: var(--pink-dark);
+    background: var(--pink-light);
+}
+.menu-tab-num {
+    font-family: var(--font-display);
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--pink);
+    line-height: 1;
+    transition: color 0.2s;
+}
+.menu-tab-btn.active .menu-tab-num,
+.menu-tab-btn:hover .menu-tab-num {
+    color: var(--pink-dark);
+}
+.menu-tab-name {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--mid);
+}
+.menu-tab-btn.active .menu-tab-name {
+    color: var(--dark);
+}
+.menu-tab-name-ar {
+    font-size: 11px;
+    color: var(--light);
+    direction: rtl;
+}
+.menu-tab-today-dot {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--pink-dark);
+    animation: dotPulse 2s ease-in-out infinite;
+}
+@keyframes dotPulse {
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.4);
+        opacity: 0.7;
+    }
+}
+
+/* Tab panels */
+.menu-tab-panel {
+    display: none;
+}
+.menu-tab-panel.active {
+    display: block;
+    padding: 20px;
+}
+
+/* Panel header */
+.menu-panel-header {
+    background: var(--pink-light);
+    border-bottom: 1px solid var(--pink-light);
+    padding: 36px 80px;
+    position: relative;
+    overflow: hidden;
+}
+.menu-panel-day-bg {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    font-family: var(--font-display);
+    font-size: 140px;
+    font-weight: 900;
+    font-style: italic;
+    color: rgba(236, 171, 173, 0.15);
+    pointer-events: none;
+    white-space: nowrap;
+    line-height: 1;
+}
+.menu-panel-header-inner {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+.menu-panel-day-name {
+    font-family: var(--font-display);
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--dark);
+    letter-spacing: -0.5px;
+}
+.menu-panel-date {
+    font-size: 13px;
+    color: var(--mid);
+    margin-top: 4px;
+}
+.menu-panel-ar {
+    font-size: 22px;
+    color: var(--pink);
+    direction: rtl;
+    margin-left: auto;
+}
+.menu-panel-today {
+    background: var(--pink);
+    color: #fff;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+/* Dishes grid */
+.menu-dishes-grid {
+    padding: 48px 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--line);
+    border-bottom: 1px solid var(--line);
+}
+.menu-dish-card {
+    background: var(--white);
+    transition: background 0.2s;
+}
+.menu-dish-card:hover {
+    background: var(--pink-pale);
+}
+.menu-dish-card-inner {
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    border-right: none;
+}
+.menu-dish-card-name {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--dark);
+    direction: rtl;
+    text-align: right;
+    line-height: 1.3;
+}
+.menu-dish-card-name-en {
+    font-size: 11px;
+    color: var(--light);
+    letter-spacing: 0.5px;
+    text-align: right;
+}
+.menu-dish-card-price {
+    font-family: var(--font-display);
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--pink);
+    margin-top: 8px;
+}
+.menu-dishes-empty {
+    grid-column: 1 / -1;
+    padding: 60px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--light);
+    background: var(--white);
+    font-style: italic;
+}
+
+/* Panel note */
+.menu-panel-note {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 80px;
+    background: var(--cream);
+    border-bottom: 1px solid var(--line);
+}
+.menu-panel-note-icon {
+    font-size: 20px;
+    flex-shrink: 0;
+}
+.menu-panel-note-ar {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--mid);
+    direction: rtl;
+}
+.menu-panel-note-en {
+    font-size: 11px;
+    color: var(--light);
+    margin-top: 2px;
+}
+
+/* Order CTA */
+.menu-order-cta {
+    background: var(--dark);
+    padding: 72px 80px;
+}
+.menu-order-cta-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.menu-order-title {
+    font-family: var(--font-display);
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.15;
+    margin-top: 12px;
+}
+.menu-order-title em {
+    color: var(--pink);
+    font-style: italic;
+}
+.menu-order-cta-right {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* ================================================================
+   MENU PAGE — Responsive
+   ================================================================ */
+@media (max-width: 1024px) {
+    .menu-page-hero-inner {
+        padding: 40px;
+        gap: 36px;
+    }
+    .menu-week-switcher {
+        padding: 14px 40px;
+    }
+    .menu-tabs-nav {
+        padding: 0 40px;
+    }
+    .menu-panel-header {
+        padding: 28px 40px;
+    }
+    .menu-dishes-grid {
+        padding: 32px 40px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .menu-panel-note {
+        padding: 16px 40px;
+    }
+    .menu-order-cta {
+        padding: 56px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-page-hero-inner {
+        padding: 28px 24px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    .menu-page-logo {
+        width: 100px;
+        height: 100px;
+    }
+    .menu-page-title {
+        font-size: 38px;
+    }
+    .menu-week-switcher {
+        padding: 12px 24px;
+    }
+    .menu-tabs-nav {
+        padding: 0 12px;
+        gap: 0;
+    }
+    .menu-tab-btn {
+        padding: 16px 16px;
+    }
+    .menu-tab-num {
+        font-size: 22px;
+    }
+    .menu-tab-name {
+        font-size: 10px;
+    }
+    .menu-tab-name-ar {
+        display: none;
+    }
+    .menu-panel-header {
+        padding: 24px;
+    }
+    .menu-panel-day-name {
+        font-size: 28px;
+    }
+    .menu-panel-ar {
+        display: none;
+    }
+    .menu-dishes-grid {
+        padding: 0;
+        grid-template-columns: 1fr 1fr;
+    }
+    .menu-dish-card-inner {
+        padding: 20px 16px;
+    }
+    .menu-dish-card-name {
+        font-size: 17px;
+    }
+    .menu-dish-card-price {
+        font-size: 20px;
+    }
+    .menu-panel-note {
+        padding: 14px 24px;
+    }
+    .menu-order-cta {
+        padding: 48px 24px;
+    }
+    .menu-order-cta-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu-order-cta-right {
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu-order-cta-right .btn-whatsapp,
+    .menu-order-cta-right .btn-primary {
+        width: 100%;
+        justify-content: center;
+    }
+    .menu-order-title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu-dishes-grid {
+        grid-template-columns: 1fr;
     }
 }
