@@ -8,7 +8,7 @@
     <div class="menu-page-hero-bg">طبخات</div>
     <div class="menu-page-hero-inner">
         <div class="menu-page-logo-wrap">
-            <img src="{{ asset('images/teta-zahwe-logo.jpg') }}" alt="Teta Zahwe" class="menu-page-logo" />
+            <img src="{{ asset('images/teta-zahwe-logo.svg') }}" alt="Teta Zahwe" class="menu-page-logo" />
         </div>
         <div class="menu-page-hero-text">
             <div class="eyebrow" style="color:var(--pink);" data-reveal>Updated Every Week</div>
@@ -145,7 +145,7 @@
 @else
 
 <div class="menu-empty-state">
-    <img src="{{ asset('images/teta-zahwe-logo.jpg') }}" alt="Teta Zahwe"
+    <img src="{{ asset('images/teta-zahwe-logo.svg') }}" alt="Teta Zahwe"
         style="width:100px;height:100px;border-radius:50%;object-fit:cover;margin:0 auto 24px;display:block;opacity:0.6;" />
     <h2 style="font-family:var(--font-display);font-size:28px;font-weight:700;color:var(--dark);margin-bottom:8px;">Menu
         coming soon.</h2>

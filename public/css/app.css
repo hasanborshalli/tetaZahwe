@@ -2227,7 +2227,10 @@ h2.display.light {
     width: auto;
     display: block;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: #ecabad;
+    border: 2px solid rgba(236, 171, 173, 0.3);
+    box-shadow: 0 0 40px rgba(236, 171, 173, 0.15);
 }
 
 /* Hero logo — centrepiece replacing the title */

@@ -19,7 +19,7 @@
         <div class="navbar-inner">
 
             <a href="{{ route('home') }}" class="nav-logo">
-                <img src="{{ asset('images/teta-zahwe-logo.jpg') }}" alt="Teta Zahwe" class="nav-logo-img" />
+                <img src="{{ asset('images/teta-zahwe-logo.svg') }}" alt="Teta Zahwe" class="nav-logo-img" />
             </a>
 
             <ul class="nav-links">
